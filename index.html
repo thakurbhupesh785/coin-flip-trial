@@ -24,7 +24,7 @@
         const randomNumber = Math.random();
         const result = randomNumber < 0.5 ? 'Heads' : 'Tails' ;
         console.log( guess === result ? 'You win!' : 'You lose!');
-        window.alert("( guess === result ? 'You win!' : 'You lose!')");
+        
       
 
       if (guess === result) {
@@ -32,7 +32,7 @@
       } else {
         score.losses++;
       }
-        window.alert("( guess === result ? 'You win!' : 'You lose!')");
+        window.alert("`${result}`");
        window.alert('Wins: ' + score.wins + ', Losses: ' + score.losses);
       console.log(score);
 
