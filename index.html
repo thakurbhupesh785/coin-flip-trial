@@ -29,8 +29,10 @@
 
       if (guess === result) {
         score.wins++;
+        window.alert('You win!');
       } else {
         score.losses++;
+        window.alert('You lose!');
       }
         window.alert(`${result}`);
        window.alert('Wins: ' + score.wins + ', Losses: ' + score.losses);
